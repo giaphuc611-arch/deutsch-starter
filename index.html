@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#17264a">
+  <meta name="description" content="Deutsch Starter - học tiếng Đức từ A0 đến B1, luyện nghe nói đọc viết và thi thử Goethe, telc, ÖSD miễn phí.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Deutsch Starter • A0–B1</title>
+  <script defer src="./content.js"></script>
+  <script defer src="./exams.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><div class="brandmark">D<span>+</span></div><div><strong>Deutsch Starter</strong><small>A0 → B1 · miễn phí</small></div></div>
+      <div class="side-label">HỌC TẬP</div>
+      <nav aria-label="Chọn chức năng">
+        <button class="nav active" data-view="home"><span>⌂</span> Tổng quan</button>
+        <button class="nav" data-view="alphabet"><span>Ä</span> Bảng chữ cái</button>
+        <button class="nav" data-view="sounds"><span>◉</span> Ghép âm, phát âm</button>
+        <button class="nav" data-view="lessons"><span>▤</span> Giáo trình A0–B1</button>
+        <button class="nav" data-view="practice"><span>✎</span> Nghe – viết – luyện nói</button>
+        <button class="nav" data-view="review"><span>◇</span> Ôn tập thông minh</button>
+      </nav>
+      <div class="side-label">LUYỆN THI VÀ DỮ LIỆU</div>
+      <nav aria-label="Thi thử và quản lý">
+        <button class="nav" data-view="exams"><span>▣</span> Thi thử 3 hội đồng</button>
+        <button class="nav" data-view="dialogue"><span>☏</span> Hội thoại tình huống</button>
+        <button class="nav" data-view="progress"><span>↗</span> Tiến độ & sao lưu</button>
+        <button class="nav" data-view="settings"><span>⚙</span> Cài đặt & hướng dẫn</button>
+      </nav>
+      <div class="sidebar-foot"><span class="dot"></span> Hoạt động không cần tài khoản <small>Giáo trình và đề luyện tự biên soạn, không phải đề chính thức.</small></div>
+    </aside>
+    <div class="bodywrap">
+      <header class="topbar"><button class="mobile-menu" id="menubtn" aria-label="Mở menu">☰</button><div class="top-label">Lộ trình tiếng Đức toàn diện</div><div class="top-actions"><span id="netbadge" class="network">● Đang kiểm tra</span><button id="quick-speak" class="iconbtn" title="Kiểm tra giọng đọc tiếng Đức" aria-label="Thử giọng đọc">🔊</button></div></header>
+      <main id="app" tabindex="-1"><p>Đang tải nội dung…</p></main>
+      <footer>Deutsch Starter V3 • Đề luyện nguyên bản theo dạng bài phổ biến • Không cấp chứng chỉ</footer>
+    </div>
+  </div>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <div id="overlay" hidden></div>
+</body>
+</html>
